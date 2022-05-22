@@ -1,4 +1,4 @@
-function greet() {}
+function greet() {
 let person = prompt ("What's your name?");
 alert ("Hello " + person + "!");
 var age = prompt("How old are you?");
@@ -19,7 +19,7 @@ function getAge(birthYear){
 }
 calculatedAge = getAge(year_born);
 alert("Hello, " + "you are " + calculatedAge + " years old!");
-
+}
 
 
 
